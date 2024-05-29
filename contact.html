@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - My News Website</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      header {
+        background-color: #28a745;
+        color: white;
+        padding: 1em 0;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 2em;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .name-button {
+        background-color: white;
+        color: #28a745;
+        border: none;
+        padding: 0.5em 1em;
+        cursor: pointer;
+      }
+
+      main {
+        background: linear-gradient(to bottom right, #2cba50, #14a64d);
+        padding: 2em 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 100px);
+      }
+
+      .contact-form {
+        background: white;
+        padding: 2em;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 90%;
+        max-width: 500px;
+      }
+
+      .contact-form h2 {
+        margin-top: 0;
+      }
+
+      .contact-form label {
+        display: block;
+        margin: 1em 0 0.5em;
+      }
+
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        padding: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      .contact-form button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 0.75em 1.5em;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-top: 1em;
+      }
+
+      footer {
+        background-color: #ffffff;
+        padding: 2em 0;
+        text-align: center;
+        border-top: 1px solid #dddddd;
+      }
+
+      .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      .footer-content h1 {
+        margin: 0;
+        font-size: 1.5em;
+      }
+
+      .quick-links {
+        text-align: left;
+      }
+
+      .quick-links ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em 1em;
+      }
+
+      .quick-links li {
+        margin-bottom: 0.5em;
+      }
+
+      .quick-links a {
+        color: #000000;
+        text-decoration: none;
+      }
+
+      .footer-bottom {
+        margin-top: 1em;
+        color: gray;
+        border-top: 1px solid #dddddd;
+        padding-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <h1>My News Website</h1>
+        <div class="quick-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="travels.html">Travels</a></li>
+            <li><a href="recommendations.html">Recommendations</a></li>
+            <li><a href="mission.html">Mission Statement</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="promo.html">Promo Fli</a></li>
+            <li><a href="guides.html">Guides</a></li>
+            <li><a href="team.html">The Team</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>2021 - 2022 My News Website All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
